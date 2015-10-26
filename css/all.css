@@ -1,0 +1,215 @@
+html, body, footer, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, img, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, textarea, table, tbody, tfoot, thead, tr, th, td { 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	outline: none;
+	text-decoration: none;
+}
+
+html, body {
+	font-family: Arial;
+	color: #303030;
+	height: 100%;
+	position: relative;
+}
+
+a {
+	color: #303030;
+}
+
+/*first page*/
+.bg-image {
+	background-image: url('../images/girl.jpg');
+	background-size: cover;
+	height: 100%;
+	position: absolute;
+  	left: 0;
+  	right: 0;
+}
+
+.nav {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+}
+.menu {
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	text-align: center;
+}
+
+.menu li {
+	display: inline;
+}
+
+.menu a {
+	padding-top: 65px;
+	width: 150px;
+	height: 85px;
+	font-weight: 700;
+	display: inline-block;
+	margin-right: 30px;
+	background-color: rgba(0,0,0,.7);
+  	color: #fff;
+  	text-transform: uppercase;
+}
+
+.menu a:hover {
+	color: #ccc;
+	background-color: rgba(0,0,0,.9);
+}
+
+/*shop page*/
+.footer {
+   	width: 100%;
+   	text-align: center;
+   	font-size: 12px;
+   	background-color: rgba(0,0,0,.7);
+   	height: 30px;
+   	padding-top: 20px;
+   	color: #fff;
+}
+
+.panel {
+	width: 100%;
+	height: 100px;
+	background-color: #F8F8F8;
+	background-image: radial-gradient(closest-side, transparent 98%, rgba(232,232,232,.4) 85%),
+	radial-gradient(closest-side, transparent 98%, rgba(232,232,232,.4) 85%);
+	background-size: 20px 20px;
+	background-position: 0 0, 10px 10px;
+}
+
+.phone {
+	float: left;
+	clear: left;
+	margin-left: 200px;
+}
+
+.phone img {
+	width: 10px;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+.search {
+	float: left;
+	clear: left;
+	margin-left: 200px;
+}
+
+.search input {
+	border: 1px solid #ccc;
+	height: 20px;
+}
+
+.search button {
+	width: 50px;
+	height: 20px;
+	outline: none;
+	border: none;
+}
+
+.search button:hover {
+	background: #ccc;
+}
+
+.login {
+	float: right;
+	margin-right: 20px;
+	margin-top: -20px;
+}
+
+.shopping-cart {
+	float: right;
+	clear: right;
+	margin-right: 20px;
+}
+
+.shopping-cart img {
+	width: 30px;
+}
+
+.shop-nav {
+	text-align: left;
+	position: fixed;
+	float: left;
+	top: 0;
+	height: 100%;
+	background-color: #000;
+}
+
+.shop-menu {
+	list-style: none;
+	text-align: left;
+	margin-top: 150px;
+}
+
+.shop-menu a {
+	padding: 14px;
+	width: 150px;
+	font-weight: 500;
+	display: inline-block;
+  	color: #fff;
+  	font-size: 16px;
+  	text-transform: uppercase;
+}
+
+.shop-menu a:hover {
+	color: #ccc;
+	background-color: #202020;
+}
+
+.shop {
+	margin-left: 250px;
+	margin-bottom: 100px;
+}
+
+.nav-panel {
+	color: #000;
+	margin-left: 30px;
+	font-size: 14px;
+	color: #505050;
+}
+
+.nav-panel a:hover, .login a:hover, .shopping-cart a:hover  {
+	text-decoration: underline;
+}
+.nav-panel a:visited, .login a:visited {
+	color: #505050;
+}
+
+.nav-panel a:last-child {
+	color: #909090;
+}
+
+.shop > div:nth-child(1) {
+	text-align: left;
+	margin-top: 65px;
+}
+
+.shop > div {
+	display: inline-block;
+	margin-right: 90px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 16px;
+	display: inline-block;
+	color: #000;
+	font-weight: 700;
+}
+
+h2 > a {
+	color: #000;
+	font-weight: 500;
+}
+
+h2 > a:hover {
+	text-decoration: underline;
+}
+
