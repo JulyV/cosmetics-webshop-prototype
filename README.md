@@ -1,1 +1,1 @@
-# cosmetics-webshop-prototype, design and markup
+# Cosmetics-webshop-prototype, design and markup
